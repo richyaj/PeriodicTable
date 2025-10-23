@@ -4,8 +4,8 @@ function createPeriodicTable() {
   
   // Create all elements
   elementsData.forEach(data => {
-    const [number, symbol, name, mass, weight, material, column, row] = data;
-    const element = createElementDiv(number, symbol, name, mass, weight, material, column, row);
+    const {number, symbol, name, mass, electron_config, material, column, row} = data;
+    const element = createElementDiv(number, symbol, name, mass, electron_config, material, column, row);
     table.appendChild(element);
   });
   

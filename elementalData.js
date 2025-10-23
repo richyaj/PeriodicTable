@@ -1516,5 +1516,5 @@ const elementsData = baseElements.map(row => {
 });
 
 // Global and ESM export
-if (typeof window !== "undefined") window.elementsData = elementsData;
-export { elementsData };
+// if (typeof window !== "undefined") window.elementsData = elementsData;
+// export { elementsData };
